@@ -1,22 +1,22 @@
 # Base blog settings
 baseurl                      : "" # 
-url                          : "osori.github.io" # the base hostname & protocol for your site
+url                          : "irenefromseoul.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : 오소리의 블로그
+  title                      : irenefromseoul
   description                  : >
-                               written by sori oh
+                               written by 오소리(sori irene oh)
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
+  logo_path                  : #"assets/img/dactl.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
                                # needed for searchbox in archive page
-  hero_layout                : true # turn on hero layout for blog and posts
-  hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
+  hero_layout                : #true # turn on hero layout for blog and posts
+  hero_placeholder           : #"assets/img/generic_hero.jpg" # placeholder for hero image
   excerpts                   : true # show excerpts instead of full post content on blog page
   inline_footnotes           : true # enable/disable barefoot inline footnotes
-  titles_only                : false # show post titles only on main blog page
+  titles_only                : true # show post titles only on main blog page
 
 # Fonts
   font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
